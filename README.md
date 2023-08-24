@@ -2,7 +2,7 @@
 
 El curso 3 de la formación de React llamado **React Router: Navegación en una SPA** en el cual se implementa la librería React Router DOM tiene algunos problemas en la implementación de la librería en la sección de rutas anidadas. El motivo de tal problema radica que el instructor usa los componentes Routes y Route **DENTRO** de una página (la página llamada Categoría) y lo anterior, si bien funciona el código (hace lo que se desea), no se condice con la documentación en la cual las rutas se definen en **SOLO** un archivo siendo este el archivo que contendrá todas las rutas. En general, dicho archivo será aquel que irá directo en el index.js, es decir, dicho archivo será el **App.js**. Para solucionar dicho problema he establecido las rutas en el archivo App.js y **solo** allí se encuentran las rutas del sitio. Además, el instructor rompe su línea de explicación al no crear un componente que abstrae la lógica del mismo modo como lo estaba haciendo antes de llegar al punto que genera el problema. Para solucionar tales problemas de explicación y para dejar muy claro como utilizar de manera más clara la librería, he reconstruido el código del instructor desde la parte que genera el problema y a continuación muestro los problemas que acabo de señalar con mi implementación la cual se verá que es mucho más intuitiva y lógica.
 
-# Comparación de código de Instructor versus mi código
+# Comparación del código del Instructor versus mi código
 
 En la imagen de abajo muestro el código del instructor el cual utiliza los componentes Routes y Route en una página llamada Categoría de modo tal de implementar rutas anidadas. Si bien el código funciona, se rompe lo indicado en la documentación que es crear las rutas en solo un archivo, no en las mismas páginas.
 
